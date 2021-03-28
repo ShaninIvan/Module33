@@ -1,0 +1,12 @@
+env:
+  browser: true
+  es2020: true
+  jquery: true
+extends:
+  - airbnb-base
+plugins:
+  - jquery
+parserOptions:
+  ecmaVersion: 2020
+  sourceType: module
+rules: {}

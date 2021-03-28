@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="container__header">
+            <div class="header__logo">Сайт-визитка</div>
+            <nav class="header__menu">
+                <ul>
+                    <li class="menu__item"><a href="index.html">Главная</a></li>
+                    <li class="menu__item"><a href="about.html">О себе</a></li>
+                    <li class="menu__item"><a href="contacts.html">Контакты </a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="container__content">
+            <h1>Контакты</h1>
+            <div class="content__contacts">
+                <form action="POST">
+                    <input class="contacts__name" type="text" name="name" placeholder="Ваше имя">
+                    <textarea class="contacts__textarea" name="text" cols="30" rows="10" placeholder="Текст сообщения"></textarea>
+                    <input class="contacts__send" type="submit" value="Отправить">
+                </form>
+            </div>
+        </main>
+        <footer class="container__footer">
+            <p>Copyright 2021</p>
+        </footer>
+    </div>
+    <script src="js/app.js"> </script>
+</body>
+
+</html>
